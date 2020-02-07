@@ -1,6 +1,11 @@
 spring:
   application:
     name: eureka-server
+#  利用spring-security组件，鉴权
+  security:
+    user:
+      name: hero
+      password: 123456
 
 server:
   port: 8761
